@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+ul,ol{
+	list-style:none;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	background: #ffffff;
+    display:flex;
+    overflow-x: hidden;
+	/* flex-direction:column; */
+    /* position: relative; */
+}
+img{
+	border: 0;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+body{
+    background-image: url(../img/index_bg.png)
+}
+/* .leftone{
+    width:350px;
+    height: 160px;
+} */
+.leftBox{
+    display: flex;
+    width: 30%;
+}
+.onetext{
+    width: 330px;
+    height: 123px;
+    background-image: url(../img/border_bg01.png);
+    margin: 15px 0 15px 0;
+    position: relative;
+}
+.onetext p:nth-child(1){
+    font-weight: 900;
+    width: 116px;
+    height: 13px;
+    position: absolute;
+    top: 15px;
+    left: 105px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 17px;
+    color:#0e94ea;
+    background-image: url(../img/title_bg01.png);
+}
+.onetext p:nth-child(2){
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:56px;
+    left: 95px;
+}
+.twotext p{
+    width: 327px;
+    height: 28px;
+    background-image: url(../img/box_title.png);
+    margin-left: 0;
+}
+.twotext p span{
+    font-size: 14px;
+    color: white;
+    padding-left: 26px;
+}
+#bingtu{
+    width: 327px;
+    height: 268px;
+}
+.threetext p{
+    width: 327px;
+    height: 28px;
+    background-image: url(../img/box_title.png);
+    /* margin-left: 17px; */
+    display: flex;
+}
+.threetext p span{
+    font-size: 14px;
+    color: white;
+    padding-left: 26px;
+    margin-top: 3px;
+}
+.threetext p span:nth-child(1){
+    padding-left: 26px;
+}
+.threetext p span:nth-child(4){
+    padding-left: 4px;
+}
+.threetext p img:nth-child(2){
+    width:1px;
+    height: 13px;
+    margin-top: 6px;
+    margin-left: 96px;
+}
+.threetext p img:nth-child(3){
+    width: 13px;
+    height: 13px;
+    margin-top: 6px;
+    margin-left: 14px;
+}
+#ditu1{
+    width: 327px;
+    height: 268px;
+    /* margin-left: 17px; */
+}
+.bgimg{
+    width: 19px;
+    height: 750px;
+    background-image: url(../img/line_img.png);
+}
+.middleBox{
+        width: 47%;
+}
+.Textone{
+    text-align: center;
+}
+.Textone h3{
+    width: 570px;
+    height: 37px;
+    color: #cdddf7;
+    font-size: 29px;
+    background-image: url(../img/title_border.png);
+    background-image: no-repeat;
+    margin-top:17px;
+}
+.time{
+    display: flex;
+    width:100%;
+}
+.time1{
+   display: flex;
+   width:290px;
+   height:82px;
+   border:1px solid #0e94ea;
+   margin-top:20px;
+}
+.timeDate{
+   flex-wrap: wrap;
+   width:165px;
+   height:49px;
+   border-right:1px solid #cdddf7;
+   color:#cdddf7;
+   margin-top: 10px;
+}
+.one{
+   width:143px;
+   display: flex;
+   justify-content: space-between;
+   color:white;
+   font-size:12px;
+}
+.one div:nth-child(1) img{
+   width:76px;
+   height:60px;
+   margin-top:3px;
+   margin-left:8px;
+   
+}
+.one div:nth-child(2){
+   margin-top:10px;
+   
+}
+.time .imgs img{
+   height:82px;
+   margin-top:21px;
+   margin-left:15px;
+   margin-right:15px;
+}
+.data{
+    margin-top: 20px;
+}
+.data span{
+    display: inline-block;
+    text-align: center;
+    width: 53px;
+    height: 28px;
+    border: 1px solid #0e94eb;
+}
+.data select{
+    width: 106px;
+    height: 25px;
+    border: 1px solid #0e94eb;
+    background-color: #142234;
+    color: white;
+    margin-top: 18px;
+}
+.rightBox{
+    display: flex;
+}
+.fT{
+    margin-top: 15px;
+}
+#ditu2{
+    width:570px;
+    height: 550px;
+}
+#tab{
+    z-index: 10;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-top: -165px;
+    margin-left: 20px;
+}
+#zhu{
+    width: 326px;
+    height: 265px;
+}
+#num{
+    width: 330px;
+    height: 154px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../img/bg_img03.png);
+    text-align: center;
+    margin-bottom: 30px;
+}
+#num span{
+    display: inline-block;
+    font-size: 20px;
+    color: #cdddd8;
+    margin-top: 60px;
+}
+#person{
+    width: 330px;
+    height: 154px;
+    border: 1px solid #0e94ea;
+    background-color: #123b5c;
+    margin-top: 10px;
+}
+#person p{
+    background-image: none;
+    color: white;
+    font-size: 14px;
+    margin-left:20px;
+}
+#person p:nth-child(1){
+    margin-top: 20px;
+}
+#person p img{
+    width: 14px;
+    height: 14px;
+}

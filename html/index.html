@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="leftBox">
+        <div class="leftone">
+            <div class="onetext">
+                <p>当前到件量</p>
+                <p>123,456,789</p>
+            </div>
+            <div class="twotext">
+                <p><span>派件入库量占比</span></p>
+                <div id="bingtu"></div>
+            </div>
+            <div class="threetext">
+                <p>
+                    <span>广东寄派件数据</span>
+                    <img src="../img/line-blue.png">
+                    <img src="../img/select_icon.png" alt="">
+                    <span>筛选</span>
+                </p>
+                <div id="ditu1"></div>
+            </div>
+        </div>
+        <div class="bgimg"></div>
+    </div>
+    <div class="middleBox">
+        <div class="Textone">
+            <h3>智慧物流服务中心</h3>
+        </div>
+        <div class="date">
+            <div class="time">
+                <div class="time1">
+                    <div class="timeDate">
+                        <p style="font-size:30px;">17:25:34</p>
+                        <div>2019/1/2pm 周3</div>
+                    </div>
+                    <div class="one">
+                        <div>
+                            <img src="../img/sun.png" alt="">
+                        </div>
+                        <div>
+                            <p>多云</p>
+                            <p>16~22C</p>
+                            <p>深圳市和...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="imgs">
+                    <img src="../img/line_bg.png" alt="">
+                </div>
+                <div class="data">
+                    <p style="display:flex;">
+                        <span style="background-color:#0e94eb; color:white;">派件</span>
+                        <span>寄件</span>
+                    </p>
+                    <select name="" id="gongsi">
+                        <option value="">公司</option>
+                    </select>
+                    <select name="" id="leixing">
+                        <option value="">快件类型</option>
+                    </select>
+                </div>
+            </div>
+            <div id="ditu2">
+            </div>
+            <div id="tab" style="width:145px;height:180px;border:1px solid #0f7fcb;">
+                <table border="0" cellspacing="0" cellpadding="0">
+                    <tr style="height:25px; background-color: #0f7fcb;">
+                        <td style="width:25px;"></td>
+                        <td style="width:60px;">城市</td>
+                        <td style="width:60px;">派件</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>天津市</td>
+                        <td>125687</td>
+                    </tr>
+                    <tr style="background-color:#123859">
+                        <td>2</td>
+                        <td>福建省</td>
+                        <td>78452</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>湖南省</td>
+                        <td>57841</td>
+                    </tr>
+                    <tr style="background-color:#123859">
+                        <td>4</td>
+                        <td>北京市</td>
+                        <td>45879</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>江苏省</td>
+                        <td>25584</td>
+                    </tr>
+                    <tr style="background-color:#123859">
+                        <td>6</td>
+                        <td>四川省</td>
+                        <td>14852</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>浙江省</td>
+                        <td>12589</td>
+                    </tr>
+                    <tr style="background-color:#123859">
+                        <td>8</td>
+                        <td>重庆市</td>
+                        <td>5261</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="rightBox">
+        <div class="bgimg"></div>
+        <div class="right">
+            <div class="threetext">
+                <p class="fT">
+                    <span>广东寄派件数据</span>
+                    <img src="../img/line-blue.png">
+                    <img src="../img/select_icon.png" alt="">
+                    <span>筛选</span>
+                </p>
+                <div id="zhu"></div>
+            </div>
+            <div class="threetext">
+                <p class="fT">
+                    <span>广东寄派件数据</span>
+                    <img src="../img/line-blue.png">
+                    <img src="../img/select_icon.png" alt="">
+                    <span>筛选</span>
+                </p>
+                <div id="num"><span>123,456.5元</span></div>
+            </div>
+            <div class="threetext">
+                <p class="fT">
+                    <span>广东寄派件数据</span>
+                    <img src="../img/line-blue.png">
+                    <img src="../img/select_icon.png" alt="">
+                    <span>筛选</span>
+                </p>
+                <div id="person">
+                    <p><img src="../img/teacher_icon.png" alt="">今日值班：</p>
+                    <p><img src="../img/people_iocn.png" alt="">负责人：</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../js/jquery-1.8.3.js"></script>
+<script src="../js/echarts.js"></script>
+<script src="../js/bingtu.js"></script>
+<script src="../js/map.js"></script>
+<script src="../js/chinamap.js"></script>
+<script src="../js/zhu.js"></script>
+<script src="../js/guangdong.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=0UqXGL98FSmi22w2Rl6HK56I"></script>
+
+<script type="text/javascript">
+
+</script>
